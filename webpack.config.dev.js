@@ -41,8 +41,8 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: path.join(__dirname, "dist"),
+    contentBase: path.join(__dirname, "dist"),
     compress: true,
-    port: 4000,
+    port: 3006,
   },
 };
